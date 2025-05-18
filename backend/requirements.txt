@@ -1,0 +1,8 @@
+django
+djangorestframework
+requests
+djangorestframework-simplejwt
+drf_yasg
+gunicorn
+django-cors-headers
+whitenoise
