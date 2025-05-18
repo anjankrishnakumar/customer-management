@@ -17,6 +17,7 @@ DEBUG=False
 # Docker run Command
 docker run --env-file .env -p 8000:8000 customer-mgmt
 
+
 # ############################################################################################################################## #
 
 # Frontend service
@@ -34,3 +35,6 @@ DOCKER_BUILDKIT=1 docker build --no-cache -t customer-mgmt-app .
 
 # Docker run command
 docker run -p 3000:80 customer-mgmt-app
+
+# Browser link
+http://localhost:3000
