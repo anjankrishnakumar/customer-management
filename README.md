@@ -18,8 +18,6 @@ DEBUG=False
 docker run --env-file .env -p 8000:8000 customer-mgmt
 
 
-# ############################################################################################################################## #
-
 # Frontend service
 Frontend serice powered by React
 
